@@ -44,7 +44,7 @@ form, #status, #response, #operation, #accountId, #toAccountId, #value, button {
 input, select {
   width: 100%;
   padding: 12px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.24);
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -53,7 +53,7 @@ input, select {
 }
 
 input::placeholder, select {
-  color: #ccc;
+  color: #000000;
 }
 
 /* Botão */
@@ -74,7 +74,7 @@ button#send:hover {
 
 /* Caixa de resposta */
 #response {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.123);
   backdrop-filter: blur(10px);
   padding: 15px;
   border-radius: 10px;
